@@ -1,0 +1,79 @@
+.blog {
+    &-bg {
+        background-image: url("../../img/blog.png");
+        @include bg-image-shadow;
+        height: 65px;
+        margin-bottom: 70px;
+        padding-top: 10px;
+
+        &-text {
+            padding-top: 10px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+    .card {
+        border: none;
+        border-radius: 0;
+
+        &-img-top {
+            border: none;
+            border-radius: 0;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        &-body {
+            padding: 16px 16px;
+        }
+
+        &-title {
+            text-align: start;
+            font-size: 20px;
+        }
+
+        &-text {
+            text-align: start;
+            color: gray;
+
+
+        }
+
+        &-span {
+            text-align: end;
+            color: red;
+        }
+    }
+}
+
+.c {
+    background-image: url("../../img/pizza5.png");
+    background-color: black;
+    @include bg-image-fixed;
+
+    /* height: 575px; */
+    &-img {
+        padding-top: 8vw;
+        padding-bottom: 5vw;
+    }
+
+    &-text {
+        width: 62vw;
+    }
+
+    &-post {
+        padding-bottom: 6vw;
+    }
+
+    .carousel {
+        &-indicators {
+            bottom: 1%;
+
+            & .active {
+                background-color: red;
+            }
+        }
+    }
+
+}

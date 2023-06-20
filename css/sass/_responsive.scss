@@ -1,0 +1,226 @@
+@include media-lg {
+    .bg-home {
+        height: 44vw;
+        background-size: contain;
+
+        &-text {
+            top: 11vw;
+            left: 57.5vw;
+            width: 36vw;
+
+            .btn {
+                padding: 6px 18px !important;
+                font-size: 16px !important;
+            }
+        }
+    }
+
+    .slick-prev,
+    .slick-next {
+        top: unset;
+        bottom: -1vw;
+    }
+}
+
+@media screen and (max-width:993px) {
+    .navbar-nav {
+        background-color: black;
+        opacity: 0.9;
+        align-items: center;
+
+        .nav-item {
+            .nav-link {
+                font-size: unset;
+            }
+        }
+
+    }
+
+
+}
+
+@include media-md {
+    .bg-home {
+        height: 53%;
+        background-size: cover;
+
+        &-text {
+            position: initial !important;
+            width: fit-content;
+            margin: 8vw 3vw;
+
+            .d1 {
+                font-size: 35px;
+                color: black !important;
+
+            }
+
+            .d2 {
+                font-size: 59px;
+                font-weight: bold;
+                color: black !important;
+
+            }
+
+            .d3 {
+                font-weight: 400;
+                font-size: 26px;
+                color: #363636;
+            }
+
+            .btn {
+                color: black !important;
+            }
+        }
+    }
+
+    .nav {
+        &-link {
+            color: white;
+            border: 0px;
+
+            &:hover {
+                color: red;
+                border: 0px;
+            }
+        }
+    }
+
+    .images {
+        & .food-icon {
+            padding: 10px;
+        }
+    }
+
+    .sec-pf {
+        .slick {
+
+
+            &-prev,
+            &-next {
+                bottom: -6vw !important;
+                margin: 0 -20px;
+            }
+
+            &-prev {
+                left: 40.4%;
+            }
+
+            &-next {
+                right: 46.1%;
+            }
+        }
+    }
+
+    .mem {
+        height: 100%;
+
+        &-title {
+            font-size: 1.5rem;
+            padding-bottom: 0;
+        }
+
+        &-desc {
+            font-size: 13px;
+            padding-bottom: 12px;
+        }
+
+        &-btn {
+            padding: 3px 19px;
+            font-size: 12px;
+        }
+    }
+}
+
+@include media-sm {
+    .bg-home {
+        &-text {
+
+            .d1 {
+                font-size: 30px;
+            }
+
+            .d2 {
+                font-size: 44px;
+            }
+
+            .d3 {
+                font-size: 22px;
+            }
+        }
+    }
+
+    .images {
+        .food-icon {
+            padding: 8px;
+            height: 14vw;
+            width: 20vw;
+        }
+
+        p {
+            font-size: 8px;
+            text-align: center;
+
+        }
+    }
+
+    .sec-pf {
+
+
+        .slick {
+            &-list {
+                height: 636px;
+            }
+
+            &-prev,
+            &-next {
+                bottom: -45px !important;
+                margin: 0 1px;
+            }
+
+            &-prev {
+                left: 25.4%;
+            }
+
+            &-next {
+                right: 40%;
+            }
+
+
+        }
+    }
+
+    .memories {
+        .mem {
+            &-title {
+                font-size: 5vw;
+                padding-top: 20px;
+                padding-bottom: 0;
+            }
+
+            &-desc {
+                width: 74vw;
+                font-size: 12px;
+                padding-bottom: 12px;
+            }
+
+            &-btn {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    footer {
+
+        .footer {
+            flex-direction: column;
+
+            p:first-child {
+                text-align: center;
+            }
+        }
+
+
+    }
+
+}

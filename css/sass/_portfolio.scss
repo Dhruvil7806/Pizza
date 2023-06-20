@@ -1,0 +1,94 @@
+.sec-pf {
+    margin-bottom: 6vh;
+
+    .pf-bg {
+        background-image: url("../../img/pf.png");
+        @include bg-image-shadow;
+        height: 65px;
+        margin-bottom: 70px;
+        padding-top: 15px;
+
+        &-text {
+            padding-top: 10px;
+            font-size: 30px;
+        }
+    }
+
+    .card {
+        border-radius: 0;
+        border: 3px solid transparent;
+
+        &-img-top {
+            height: 300px;
+            object-fit: cover;
+            border-radius: 0;
+        }
+
+        &-title {
+            text-align: start;
+            font-size: 22px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            color: #c10a28;
+            font-weight: 600;
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+
+        &-text {
+            font-weight: 200;
+        }
+
+        &-price {
+            flex-basis: 25.1%;
+        }
+
+        &:hover {
+            border-radius: 0 !important;
+            border: 3px solid red;
+        }
+    }
+
+    .slick {
+        &-slide {
+            padding: 0 1rem;
+            height: max-content;
+        }
+
+        &-prev,
+        &-next {
+            z-index: 1;
+            top: unset;
+            bottom: -3vw !important;
+            margin: 0 -15px;
+        }
+
+
+        &-prev {
+            left: 44%;
+
+            &:before {
+                content: url(../../img/prev.png);
+            }
+
+            &.slick-disabled:before {
+                content: url(../../img/disabled-prev.png);
+                opacity: 1;
+            }
+
+        }
+
+        &-next {
+            right: 48%;
+
+            &:before {
+                content: url(../../img/next.png);
+            }
+
+            &.slick-disabled:before {
+                content: url(../../img/disabled-next.png);
+                opacity: 1;
+            }
+        }
+    }
+}
