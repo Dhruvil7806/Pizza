@@ -1,0 +1,58 @@
+.contact {
+    background-image: url("../../img/pizza6.png");
+    padding: 50px 0;
+    @include bg-image-fixed;
+
+    &-head {
+        color: red;
+        font-weight: bold;
+    }
+
+    &-text {
+        color: #acacac;
+    }
+
+    &-link {
+        text-decoration: underline;
+        color: white;
+        font-weight: bold;
+    }
+
+    &-list {
+        line-height: 35px;
+        list-style-type: none;
+        color: #acacac;
+    }
+
+    &-list li:hover {
+        color: white;
+    }
+}
+
+footer {
+    padding: 20px 0;
+    color: white;
+    background-color: #c10a28;
+
+    .footer {
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: space-between;
+    }
+
+    .fb-p {
+        padding: 0 11px;
+    }
+
+    .icon-border {
+        color: #db7283;
+        border: 2px solid #db7283;
+        margin: 9px;
+
+        &:hover {
+            color: white;
+            border: 2px solid white;
+        }
+    }
+}

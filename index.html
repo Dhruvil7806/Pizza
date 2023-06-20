@@ -8,7 +8,7 @@
     <link href="fonts/Raleway.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sass/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         </nav>
 
     </section>
-    <div class="position-absolute text-home">
+    <div class="position-absolute bg-home-text">
         <div class="col-sm-12 text-center text-light fw-bold">
             <p class="d1">
                 Your Favorite Food
@@ -95,25 +95,25 @@
             </div>
         </div>
     </div>
-    <section class="container py-5 sec-pf">
+    <section class="py-5 sec-pf">
         <div class="pf-bg text-center">
-            <span class="pf fw-bold">List as Portfolios</span>
+            <span class="pf-bg-text fw-bold">List as Portfolios</span>
         </div>
-        <div id="responsive-slider" class="container">
+        <div id="responsive-slider" class="my-container slick">
             <div class="card" style="width: 26rem;">
                 <img src="/img/pizza1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">mexican wave</h5>
-                    <p class="card-text fw-bold fs-5">Pineapple, mushrooms, black olives, tomato sauce, oregano, garlic,
+                    <p class="card-text fs-5">Pineapple, mushrooms, black olives, tomato sauce, oregano, garlic,
                         mexican chillies
                     </p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -121,15 +121,15 @@
                 <img src="/img/pizza2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">Neapolitan</h5>
-                    <p class="card-text fw-bold fs-5">Tomato, oregano, garlic, extra virgin olive oil, pepperoni,
-                        cheese, red onion, brocolli</p>
+                    <p class="card-text fs-5">Tomato, oregano, garlic, extra virgin olive oil, pepperoni,
+                        cheese, red onion, brocolli, chillies</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -137,15 +137,15 @@
                 <img src="/img/pizza3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">Farmer</h5>
-                    <p class="card-text fw-bold fs-5">Fresh mushrooms, fresh green bell peppers, tomatoes, black olives,
+                    <p class="card-text fs-5">Fresh mushrooms, fresh green bell peppers, tomatoes, black olives,
                         meat, sausages</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -154,15 +154,15 @@
                 <img src="/img/pizza2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">Farmer</h5>
-                    <p class="card-text fw-bold fs-5">Fresh mushrooms, fresh green bell peppers, tomatoes, black olives,
+                    <p class="card-text fs-5">Fresh mushrooms, fresh green bell peppers, tomatoes, black olives,
                         meat, sausages</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -171,15 +171,15 @@
                 <img src="/img/pizza1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">mexican wave</h5>
-                    <p class="card-text fw-bold fs-5">Pineapple, mushrooms, black olives, tomato sauce, oregano, garlic,
+                    <p class="card-text fs-5">Pineapple, mushrooms, black olives, tomato sauce, oregano, garlic,
                         mexican chillies</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -187,15 +187,15 @@
                 <img src="/img/pizza1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">mexican wave</h5>
-                    <p class="card-text fw-bold fs-5">Pineapple, mushrooms, black olives, tomato sauce, oregano, garlic,
+                    <p class="card-text fs-5">Pineapple, mushrooms, black olives, tomato sauce, oregano, garlic,
                         mexican chillies</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -203,15 +203,15 @@
                 <img src="/img/pizza2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">Neapolitan</h5>
-                    <p class="card-text fw-bold fs-5">Tomato, oregano, garlic, extra virgin olive oil, pepperoni,
-                        cheese, red onion, broccoli</p>
+                    <p class="card-text fs-5">Tomato, oregano, garlic, extra virgin olive oil, pepperoni,
+                        cheese, red onion, broccoli, chillies</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -219,15 +219,15 @@
                 <img src="/img/pizza3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">Farmer</h5>
-                    <p class="card-text fw-bold fs-5">Fresh mushrooms, fresh green bell peppers, tomatoes, black olives,
+                    <p class="card-text fs-5">Fresh mushrooms, fresh green bell peppers, tomatoes, black olives,
                         meat, sausages</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -236,15 +236,15 @@
                 <img src="/img/pizza2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">Farmer</h5>
-                    <p class="card-text fw-bold fs-5">Fresh mushrooms, fresh green bell peppers, tomatoes, black olives,
+                    <p class="card-text fs-5">Fresh mushrooms, fresh green bell peppers, tomatoes, black olives,
                         meat, sausages</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
@@ -253,27 +253,27 @@
                 <img src="/img/pizza1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title fw-bolder text-danger">mexican wave</h5>
-                    <p class="card-text fw-bold fs-5">Pineapple, mushrooms, black olives, tomato sauce, oregano, garlic,
+                    <p class="card-text fs-5">Pineapple, mushrooms, black olives, tomato sauce, oregano, garlic,
                         mexican chillies</p>
                     <div class="d-flex flex-wrap">
-                        <p class="fw-bold price">Small</p>
-                        <p class="fw-bold price">Medium</p>
-                        <p class="fw-bold price">Large</p>
-                        <p class="d-block price">$5.10</p>
-                        <p class="d-block price">$10.20</p>
-                        <p class="d-block price">$20.40</p>
+                        <p class="fw-bold card-price">Small</p>
+                        <p class="fw-bold card-price">Medium</p>
+                        <p class="fw-bold card-price">Large</p>
+                        <p class="d-block card-price">$5.10</p>
+                        <p class="d-block card-price">$10.20</p>
+                        <p class="d-block card-price">$20.40</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="memories-main-bg">
-        <div class="container text-center mt-5 py-4">
+    <section class="memories">
+        <div class="my-container text-center mt-5 py-4">
             <div class="memories-bg mb-4">
-                <span class="memories">We Create Memories</span>
+                <span class="memories-bg-text">We Create Memories</span>
             </div>
-            <div class="row mt-5 mem-cont">
-                <div class="left-div col-md-6 bg-white text-center px-3">
+            <div class="row mt-5 ">
+                <div class="mem col-md-6 bg-white text-center px-3">
                     <p class="mem-title">We Create Memories</p>
                     <p class="mem-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
                         omnis reiciendis,
@@ -287,17 +287,17 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="blog">
         <div class="container text-center mt-5">
             <div class="blog-bg">
-                <span class="blog">OUR BLOG</span>
+                <span class="blog-bg-text">OUR BLOG</span>
             </div>
 
             <div class="row">
                 <div class="card col-md-4">
                     <img src="img/blog1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text-head">Lorem Ipsem Dolor sit amet</p>
+                        <p class="card-title">Lorem Ipsem Dolor sit amet</p>
                         <p class="card-text">25th Julty 2016</p>
                         <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, dolor. Quis
                             nemo aut modi,
@@ -331,7 +331,7 @@
 
         </div>
     </section>
-    <section class="c-bg">
+    <section class="c">
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
             <!-- Indicators/dots -->
@@ -394,9 +394,9 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
+    <section class="gall">
         <div class="gall-bg text-center">
-            <span class="gall">Our Gallery</span>
+            <span class="gall-bg-text">Our Gallery</span>
         </div>
 
 
@@ -468,7 +468,7 @@
         </div>
     </section>
 
-    <section class="contact-main-bg">
+    <section class="contact">
         <div class="container text-center text-md-start">
             <div class="row">
                 <div class="col-md-3">
